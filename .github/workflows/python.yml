@@ -8,7 +8,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
+    - cron: '*/15 * * * *'  # Every 15 minutes
 
 jobs:
   build:
@@ -28,5 +28,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Lint code
-       
-
+        run: |
+          pip install flake8
+          flake8 src/
