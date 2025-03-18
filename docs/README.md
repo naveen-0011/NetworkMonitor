@@ -16,9 +16,9 @@ A Python-based real-time network monitoring tool with threat detection, geolocat
 ## 🌐 **Setup**  
 1. Download the GeoLite2 database from [https://www.maxmind.com](https://www.maxmind.com)  
 2. Place `GeoLite2-City.mmdb` in the project folder  
-3. Install the required dependencies:  
-```bash
-pip install -r requirements.txt
+3. Install the required dependencies:
+   
+ install the required python packages and libraries
 
 Run the tool:
 python src/network_monitor.py
