@@ -1,0 +1,5 @@
+scapy
+geoip2
+requests
+tk
+flake8
